@@ -31,8 +31,8 @@ const HomePage = () => {
       <Container>
       <Image src={Slide} fluid/>;
       <Row className='mt-3'>
-        <Col className='mt-2'>
-              <Card  className='bg-dark text-white' style={{ width: '18rem' }}>
+        <Col className='mt-2 mb-2'>
+              <Card  className='card h-100 bg-dark text-white' style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={CardImg} />
                 <Card.Body>
                 <Badge className='bg-dark badges_text' >Technology</Badge>
